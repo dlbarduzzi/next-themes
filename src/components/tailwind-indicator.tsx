@@ -8,7 +8,8 @@ export function TailwindIndicator() {
     <div
       className={cn(
         "fixed bottom-1 left-1 z-50 flex h-6 w-6 items-center justify-center",
-        "rounded-full bg-black p-3 font-mono text-xs text-white"
+        "rounded-full bg-black p-3 font-mono text-xs text-white",
+        "dark:bg-white dark:text-black"
       )}
     >
       <div className="block sm:hidden">xs</div>
